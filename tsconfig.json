@@ -1,0 +1,13 @@
+{
+  "compilerOptions": {
+    "strict": false,
+    "noImplicitAny": false,
+    "jsx": "react-jsx",
+    "jsxImportSource": "hono/jsx",
+    "paths": {
+      "@service": ["./src/service/index.ts"],
+      "@controller": ["./src/controller/index.ts"],
+      "@entity": ["./src/entity/index.ts"],
+    }
+  }
+}
